@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to right, #aea1a2, #6c6c6c);
+}
+
+.calculadora {
+    background-color: #302b33;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+    padding: 15px;
+}
+
+#resultado {
+    background-color: white;
+    height: 70px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: right;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40pt;
+    padding: 10px;
+    color: #302b33;
+    font-weight: 700;
+    max-width: 10ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.botao {
+    width: 70px;
+    height: 60px;
+    font-size: 25pt;
+    border: none;
+    box-shadow: 0px 5px #909090;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    color: #302b33;
+}
+.botao:hover {
+    background-color: #d3d3d3;
+}
+
+
+/*estilização particular de alguns botões em especifico*/
+
+#zero {
+    width: 155px;
+}
+
+#igual {
+    height: 130px;
+    background-color: #b68c6e;
+    box-shadow: 0px 5px #624935;
+    color: white;
+}
+#igual:hover {
+    background-color: #a87b5b;
+    box-shadow: 0px 5px #58412e;
+}
+
+#reset {
+    background-color: #d64843;
+    box-shadow: 0px 5px #ad3c38;
+    color: white;
+}
+#reset:hover {
+    background-color: #c1312c;
+    box-shadow: 0px 5px #98312d;
+}
